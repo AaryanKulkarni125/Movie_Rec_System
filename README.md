@@ -22,13 +22,13 @@ The goal of this project is to:
 - learn how ML systems are structured and deployed
 
 This project also helps in improving important ML and software development skills such as:
-1 Data Preprocessing
-2 Data Cleaning
-3 Exploratory Data Analysis (EDA)
-4 Feature Engineering
-5 Model Training
-6 Model Evaluation
-7 Deployment
+- Data Preprocessing
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Model Training
+- Model Evaluation
+- Deployment
 
 ---
 
