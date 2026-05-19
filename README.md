@@ -34,11 +34,7 @@ This project also helps in improving important ML and software development skill
 
 ## Input
 
-The user can search using:
-- Movie Name
-- Director
-- Genre
-- Sub-genre
+The user inputs the title of a previously watched movie he/she has watched before.
 
 ---
 
@@ -60,3 +56,17 @@ The system recommends:
 - Seaborn
 - Scikit-learn
 - Streamlit
+
+---
+
+##Workflow
+
+1. Load the movie and credits datasets.
+2. Merge both datasets into a single dataframe.
+3. Clean and preprocess the data.
+4. Combine important textual features into a new column called `tags`.
+5. The `tags` column acts as a consolidated representation of each movie’s metadata.
+6. Apply stemming to reduce similar words to their root forms.
+7. Use CountVectorizer to convert text data into numerical vectors and create a vocabulary of keywords.
+8. Compute the cosine similarity matrix to measure similarity between movies.
+9. Retrieve the top 5 most similar movies based on similarity scores.
