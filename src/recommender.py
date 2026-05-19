@@ -8,6 +8,9 @@ cv=pickle.load(open("model/vocab.pkl",'rb'))
 
 def recommend(movie):
 
+    if movie not in movies['title'].values:
+        return ['Movie not found ']
+
     movie_index = movies[movies['title'] == movie].index[0]
 
     distances = similarity[movie_index]
