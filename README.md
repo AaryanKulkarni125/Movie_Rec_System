@@ -59,7 +59,7 @@ The system recommends:
 
 ---
 
-##Workflow
+## Workflow
 
 1. Load the movie and credits datasets.
 2. Merge both datasets into a single dataframe.
