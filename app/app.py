@@ -1,5 +1,8 @@
 import streamlit as st 
+import sys
+import os
 
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__),'..')))
 st.title("Movie Recommendation System")
 
 from src.recommender import recommend
@@ -15,4 +18,3 @@ if st.button("Recommend"):
     for movie in recommendations:
         st.write(movie)
 
-        
