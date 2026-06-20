@@ -13,8 +13,13 @@ from src.recommender import movies
 selected_movie=st.selectbox("select a movie", movies['title'].values)
 
 if st.button("Recommend"):
-    recommendations=recommend(selected_movie)
+    recommendation_movie,recommended_posters=recommend(selected_movie)
 
-    for movie in recommendations:
-        st.write(movie)
+    cols=st.columns(5)
+
+    for col,movie,poster in zip(cols,recommendation_movie,recommended_posters):
+        col.write(movie)
+
+        if poster:
+            col.image(poster)
 
