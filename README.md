@@ -4,13 +4,8 @@
 
 This project is an ML-powered movie recommendation system that suggests movies to users based on their preferences.
 
-The system takes input from the user such as:
-- movie name
-- director
-- genre
-- sub-genre
-
-and recommends similar movies that share related characteristics.
+The system takes a previously watched movie's title as input and recommends top 5 movies 
+similar to the input title.
 
 ---
 
