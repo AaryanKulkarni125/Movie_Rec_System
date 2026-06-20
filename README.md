@@ -70,3 +70,7 @@ The system recommends:
 7. Use CountVectorizer to convert text data into numerical vectors and create a vocabulary of keywords.
 8. Compute the cosine similarity matrix to measure similarity between movies.
 9. Retrieve the top 5 most similar movies based on similarity scores.
+
+## Application Demo
+
+![Movie Recommender App](App_Demo/app_demo_1.png)
